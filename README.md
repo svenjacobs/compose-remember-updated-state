@@ -1,4 +1,6 @@
-Original [Slack message](https://kotlinlang.slack.com/archives/CJLTWPH7S/p1693561958242919):
+Bug reported [here](https://issuetracker.google.com/issues/298965625).
+
+Original [Slack message](https://kotlinlang.slack.com/archives/CJLTWPH7S/p1693561958242919) ([alternative link](https://slack-chats.kotlinlang.org/t/15616459/hello-everyone-i-noticed-a-very-weird-compose-behaviour-with)):
 
 > I noticed a very weird Compose behaviour with a Hilt-provided `ViewModel` when the reference of the VM is used in a lambda, like in `confirmValueChange` of `rememberModalBottomSheetState`.
 > For example when I use the VM reference like this
